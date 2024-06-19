@@ -1,0 +1,25 @@
+{
+  "name": "qrcode-pix",
+  "author": "Henriquesouza <henrick.souza141@gmail.com>",
+  "version": "5.0.0",
+  "license": "MIT",
+  "repository": "henriquesouza/qrcode-pix",
+  "keywords": [
+    "qrcode",
+    "pix"
+  ],
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crc": "^4.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
