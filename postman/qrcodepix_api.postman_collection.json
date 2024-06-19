@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "c1424caf-1608-4b79-90b8-7aa32d714411",
+		"name": "qrcodepix_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28992393"
+	},
+	"item": [
+		{
+			"name": "gerarPixCode",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"valor\":99,\r\n    \"txtId\":\"Loja01\",\r\n    \"message\":\"compra de ps5 aws\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/pix"
+			},
+			"response": []
+		}
+	]
+}
